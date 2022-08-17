@@ -1,6 +1,6 @@
-# tpcbooking
+# booking
 
-TPC Booking for customer
+Booking for customer
 
 ## Getting Started
 
