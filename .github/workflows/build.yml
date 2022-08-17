@@ -21,7 +21,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'any'
-      - run: flutter config --enable-macos-desktop
-      - run: flutter doctor -v
+  #    - run: flutter config --enable-macos-desktop
+  #    - run: flutter doctor -v
       - run: flutter pub get -v
       - run: flutter build ${{ matrix.target }}
